@@ -93,3 +93,46 @@
     border-radius: 0;
     border: 0px;
 }
+
+.search-input {
+    background-color: #D9D8D8;
+    border: 0.5px solid #FD007A;   
+    padding: .3rem 5rem .3rem .5rem;
+    border-radius: 2px; 
+    margin-right: -2rem;
+}
+
+.search-input:focus,
+.search-button:focus {
+    outline: none;
+}
+
+.search-input::-webkit-input-placeholder {
+    font-size: 8px;
+}
+
+.search-button {
+    border: none;
+    background-color: #D9D8D8;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link i {
+    font-size: 22px;
+}
+
+.best-sellers .col-lg-3 img {
+    height: 400px;
+}
+
+.featured-products .col-lg-4 img,
+.subscription .col-lg-4 img {
+    height: 525px;
+}
+
+.our-products .col-lg-6 img {
+    height: 780px;
+}
