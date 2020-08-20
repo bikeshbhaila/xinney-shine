@@ -108,7 +108,7 @@
 }
 
 .search-input::-webkit-input-placeholder {
-    font-size: 8px;
+    font-size: 11px;
 }
 
 .search-button {
@@ -135,4 +135,25 @@
 
 .our-products .col-lg-6 img {
     height: 780px;
+}
+
+
+/* Button hover effect */
+
+.btn-text:link,
+.btn-text:visited {
+    border-radius: 0;
+}
+
+.btn-view-more:link,
+.btn-view-more:visited {
+    transition: all ease .2s;
+}
+
+.btn-text:hover,
+.btn-view-more:hover {
+    background-color: #fd007a;
+    color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .15);
+    transform: translateY(-2px);
 }
